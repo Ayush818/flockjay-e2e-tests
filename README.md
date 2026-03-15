@@ -264,7 +264,8 @@ Potential enhancements for the automation suite:
 
 ## Conclusion
 
-This automation suite validates critical workflows within the Flockjay platform and demonstrates a structured approach to QA automation.
+This automation
+suite validates critical workflows within the Flockjay platform and demonstrates a structured approach to QA automation.
 
 The combination of:
 
