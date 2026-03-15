@@ -56,7 +56,7 @@ The automated tests cover critical user flows that have high user impact and are
 
 ### 2. Create Asset Modal Access
 
-**Objective:** Verify that the user can open the Create Asset modal from the feed page.
+**Objective:** Verify that the user can open and create the Asset modal.
 
 **Flow:**
 
@@ -65,6 +65,7 @@ The automated tests cover critical user flows that have high user impact and are
 3. Hover over the Create button
 4. Click **Create Asset**
 5. Verify the Create Asset modal appears
+6. Verify user is able to create asset(Upload,Link,Content)
 
 > This ensures that the primary content creation entry point is functional.
 
@@ -162,23 +163,13 @@ npm install
 npx playwright install
 ```
 
-### 3. Run Authentication Setup
-
-This generates the saved login session:
-
-```bash
-npx playwright test tests/setup/auth.setup.spec.ts
-```
-
-This will create: `storageState.json`
-
-### 4. Run All Tests
+### 3. Run All Tests
 
 ```bash
 npx playwright test
 ```
 
-### 5. View HTML Report
+### 4. View HTML Report
 
 After tests run:
 
