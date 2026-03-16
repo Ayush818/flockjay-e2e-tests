@@ -166,7 +166,7 @@ npx playwright install
 ### 3. Run All Tests
 
 ```bash
-npx playwright test
+npm run automation
 ```
 
 ### 4. View HTML Report
