@@ -174,7 +174,7 @@ npm run automation
 After tests run:
 
 ```bash
-npx playwright show-report
+npm run test:report
 ```
 
 This provides:
